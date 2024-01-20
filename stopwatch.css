@@ -1,0 +1,52 @@
+body{
+  background-color: black;
+  color: white;
+}
+.parent-container{
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+.time-container{
+  height: 200px;
+  width: 500px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.seconds-counter, .minutes-counter, .hours-counter{
+  font-size: 100px;
+}
+
+.button-container{
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+
+.start-timer, .reset-timer{
+  width: 140px;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.start-timer:hover , .reset-timer:hover{
+  background-color: black;
+  color: white;
+  border: 2px white solid;
+  opacity: 0.7;
+}
+
+
+.start-timer:active , .reset-timer:active {
+  opacity: 0.4;
+}
